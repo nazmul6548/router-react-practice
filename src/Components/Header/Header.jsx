@@ -5,6 +5,7 @@ function Header() {
     <div>
         <h2>navbar</h2>
         <Link to="/">Home</Link>
+        <Link to="/user">User</Link>
         <Link to="/about">About</Link>
         <Link to="/message">Message</Link>
         <Link to="/contact">Contact</Link>
