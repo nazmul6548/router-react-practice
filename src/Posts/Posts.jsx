@@ -15,7 +15,7 @@ function Posts() {
         <h1>length : {posts.length}</h1>
        <div style={postsstyle}>
        {
-            posts.map(post =><Post key={post.id} params={post}></Post> )
+            posts.map(post =><Post key={post.id} post={post}></Post> )
         }
        </div>
 
